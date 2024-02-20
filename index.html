@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Conversor Real Dolar</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="img-patinhas">
+          <img
+            src="https://www.imagensanimadas.com/data/media/1512/tio-patinhas-imagem-animada-0001.gif"
+            border="0"
+            alt="tio-patinhas-imagem-animada-0001"
+          />
+        </a>
+      </div>
+
+      <div class="convertation">
+        <h2>Conversor Real/Dolar</h2>
+
+        <input 
+         type="number"
+         name="dolar"
+         id="dolar"
+         placeholder=" $" />
+
+
+        <input type="number" 
+        name="real" 
+        id="real"
+        disabled
+        value="4.95"
+        placeholder="R$4,95" />
+
+        
+        <button 
+        onclick= "converter()"
+        class="btn"
+        >Converter</button>
+        <span class="result"></span>
+     
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
